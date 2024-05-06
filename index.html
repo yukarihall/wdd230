@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yukari Hall -WDD230- Web Frontend Development</title>
+    <title>Yukari Hall - WDD 230 - Web Frontend Development</title>
     <meta name="author" content="Yukari Hall">
     <meta name="description" content="This is the course assignment portal for WDD 230 - Web Frontend Development by Yukari Hall.">
-    <script src="scripts/getdates.js"> </script>    
+    <script src="scripts/getdates.js" defer></script>    
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
     <link rel="icon" href="images/favicon.ico">
 
     <meta property="og:title" content="Waterton national park" />
@@ -34,42 +36,26 @@
     </header>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
-        <section class="card1">
-            <h2>Learning Activities</h2>
+    
+        <section class="card">
+          <h3>Learning Activities</h3>
             <ul class="lessonPlan">
                 <!-- Learning activities will be populated throughout the course -->
-                <li><a href="#">lesson01</a></li>
-                <li><a href="lesson01" href="lesson01/holygrail.html">HolyGrail</a></li>
+                <li><a href="#">lesson02</a></li>
+                <li><a href="lesson02" href="lesson02/design-principles.html">design-principles</a></li>
             </ul>
         </section>
-        <section class="card2">
-          <h2>Learning Activities</h2>
-          <ul class="lessonPlan">
-              <!-- Learning activities will be populated throughout the course -->
-              <li><a href="#">lesson02</a></li>
-              <li><a href="lesson02" href="lesson02/design-principles.html">design-principles</a></li>
-          </ul>
         </section>
-        <section class="card3">
-          <h2>Learning Activities</h2>
-          <ul class="lessonPlan">
-              <!-- Learning activities will be populated throughout the course -->
-              <li><a href="#">Home</a></li>
-              <li><a href="lesson03" href="lesson01/holygrail.html">??</a></li>
-          </ul>
-        </section>
-        <section class="card4">
-            <h2>Information</h2>
-            <h3>Alberta, Canada</h3>
-            <h3>Weather</h3>
-            <h3>Page visits:</h3>
+        <section class="card">
+            <h3>Information</h3>
+            <p>Alberta, Canada</p>
+            <p>Weather</p>
+            <p>Page visits:</p>
         </section>
     </main>
     <footer>
         <p>&copy;<span id="currentYear"></span> Yukari Hall, Alberta Canada</p>
         <p id="lastModified"></p>
     </footer>
-    <!-- Reference to getdates.js -->
-    <script src="getdates.js"></script>
 </body>
 </html>

@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -122,12 +126,3 @@ footer {
   background-color: #cbc19a;
 }
 
-@media (max-width: 768px) {
-  main {
-      padding: 0 10px;
-  }
-
-  nav ul {
-      grid-template-columns: 1fr;
-  }
-}
