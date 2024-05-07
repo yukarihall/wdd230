@@ -1,5 +1,7 @@
+/*********/
 @media screen and (min-width: 900px) {
   main {
+      display: flex;
       padding: 0 10px;
   }
 
@@ -7,3 +9,14 @@
       grid-template-columns: 1fr;
   }
 }
+
+/* Larger Views ******************
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+}
+***********/

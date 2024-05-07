@@ -25,40 +25,24 @@ main {
   margin: 0 auto;
  border-radius: 20%;
  margin-top: 10px;
-
 }
 
 header{
-  /* display: block;
-  text-align: center;
-  background-color: #139ee9;  */
   display: grid;
   grid-template-columns: 150px 1fr;
   gap: 12px;
   align-items: center;
   justify-items: left;
   text-align: center;
-  background-color: #65646297;
-
-
+  background-color: #e4dda897;
 }
-/* h1{
-  text-align: left;
-  margin: 0 auto;
-} */
-
-
-/* h1 {
-  margin: 0px 0px 0px -168px;
-  font-size: 55px;
-} */
 
 nav#navMenu{
   display: flex;
   grid-column: 1/3;
   width: 100%;
   align-items: center;
-  background-color: #ee8606f2;   
+  background-color: #a9a6a3f2;   
 }
 
 ul{
@@ -67,10 +51,10 @@ ul{
   list-style-type: none;
   padding: 0;
 }
-li{
+nav li{
   margin: 20px;
 }
-li a{
+nav li a{
   padding: 100px;
   text-decoration: none ;
   color: white;
@@ -81,43 +65,19 @@ nav{
   flex-direction: column;
 }
 
-.card1 {
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 20px auto;
   padding: 20px;
-  background-color: #18e8e1;
-  /* margin-bottom: 20px;
-  padding: 15px;
-  border: 1px solid #17f03e; */
+  background-color: #1dc9c4;
 }
 
 .lessonPlan{
-  display: flex;
-  flex-direction: column;
+  padding: 10px;
   align-items:center ;
-  background-color: #3e3f3f;   
-}
-
-.card2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #95c8d8;
-  /* border: 1px solid #ccc; */
-}
-
-.card3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #95d8bd;
-  /* border: 1px solid #ccc; */
+  color: #f8f6f8;
 }
 
 footer {
