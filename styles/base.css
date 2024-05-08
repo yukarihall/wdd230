@@ -6,8 +6,12 @@ body {
   padding: 0;
 }
 
+h2{
+  text-align: center;
+}
+
 main {
-  max-width: 800px; /* Limited width */
+/*  max-width: 800px;  Limited width */
   margin: 0 auto; /* Center horizontally */
   padding: 20px;
   height: 1.6;
@@ -24,8 +28,6 @@ main {
 }
 
 header{
-  display: grid;
-  grid-template-columns: 150px 1fr;
   gap: 12px;
   align-items: center;
   justify-items: left;
@@ -61,23 +63,29 @@ nav{
   flex-direction: column;
 }
 
+h1{
+  margin: 0%;
+  padding: 20px;
+}
+
 .card {
-  /* カードを縦に並べる */
-  display: flex;
-  flex-direction: column;
+  display:flexbox;
+  
   align-items: flex-start;
-  /* 縦方向に揃える */
-  align-items: center;
+  align-items: stretch;
   margin: 20px auto;
   padding: 20px;
   background-color: #B99095;
+
+}
+body{
+  background-color: #FCB5AC;   
 }
 
-.lessonPlan{
+/* .lessonPlan{
   padding: 10px;
   align-items:center ;
-  color: #f8f6f8;
-}
+} */
 
 footer {
   text-align: center;
