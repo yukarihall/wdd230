@@ -12,7 +12,7 @@ main {
   padding: 20px;
   height: 1.6;
   color: #333; /* Dark gray text color */
-  background-color: #f8f6f8; /* Light gray background color */
+  background-color: #FCB5AC; /* Light gray background color */
 }
 
 .myProfilePicture {
@@ -30,7 +30,7 @@ header{
   align-items: center;
   justify-items: left;
   text-align: center;
-  background-color: #e4dda897;
+  background-color: #B5E5CF;
 }
 
 nav#navMenu{
@@ -38,7 +38,7 @@ nav#navMenu{
   grid-column: 1/3;
   width: 100%;
   align-items: center;
-  background-color: #a9a6a3f2;   
+  background-color: #3D5B59;   
 }
 
 ul{
@@ -62,12 +62,15 @@ nav{
 }
 
 .card {
+  /* カードを縦に並べる */
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  /* 縦方向に揃える */
   align-items: center;
   margin: 20px auto;
   padding: 20px;
-  background-color: #1dc9c4;
+  background-color: #B99095;
 }
 
 .lessonPlan{
