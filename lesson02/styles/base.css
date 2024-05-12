@@ -63,7 +63,7 @@ main section:nth-child(2) {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 	
-	/* This is unncessary !!! The flow is set and the template is set already */
+	/* This is unncessary !!! The flow is set and the template is set already 
 	main section:nth-child(1) {
 	  grid-column: 1/2;
   }
