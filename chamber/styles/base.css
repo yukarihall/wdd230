@@ -69,23 +69,27 @@ h1{
 }
 
 .card {
-
-  /* align-items: flex-start;
-  align-items: stretch; */
+  display:flexbox;
+  
+  align-items: flex-start;
+  align-items: stretch;
   margin: 20px auto;
   padding: 20px;
   background-color: #B99095;
-  width: 50%;
-  margin: 0px 0px 25px 25px;
-}
 
+}
+.Information{
+  padding-left: 10%;
+  padding-right: 10%;
+}
 body{
   background-color: #FCB5AC;   
 }
 
-.mapStyling{
-  border:0;
-}
+/* .lessonPlan{
+  padding: 10px;
+  align-items:center ;
+} */
 
 footer {
   margin: 0px;

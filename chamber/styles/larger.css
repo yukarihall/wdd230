@@ -1,0 +1,35 @@
+/*********/
+@media screen and (min-width: 768px) {
+  #navMenu ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+  }
+  #navMenu li{
+    margin-right: 20px;
+  }
+  main {
+      display: flex;
+      padding: 0 10px;
+  }
+  nav {
+    display:block;
+    padding: 0 10px;
+  }
+
+  nav ul {
+      grid-template-columns: 1fr;
+  }
+}
+
+/* Larger Views ******************
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+}
+***********/
