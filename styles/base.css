@@ -9,7 +9,6 @@ body {
 h2{
   text-align: center;
 }
-
 main {
 /*  max-width: 800px;  Limited width */
   margin: 0 auto; /* Center horizontally */
@@ -18,7 +17,6 @@ main {
   color: #333; /* Dark gray text color */
   background-color: #FCB5AC; /* Light gray background color */
 }
-
 .myProfilePicture {
   height: 150px;
   width: auto;
@@ -42,7 +40,6 @@ nav#navMenu{
   background-color: #3D5B59; 
   padding: 20px;  
 }
-
 .navItems{
   display: flex;
   align-items: center;
