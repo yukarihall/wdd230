@@ -19,6 +19,8 @@ button.addEventListener('click', () => {
     });
 
     input.value = '';
+  } else {
+    window.alert("Please enter a chapter")
   }
   input.focus(); // Ensure input is focused regardless of the condition
 });
