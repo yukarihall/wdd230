@@ -5,84 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Claresholm Chamber of Commerce Site Plan</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/chamber/styles/normalize.css">
-    <link rel="stylesheet" href="/chamber/styles/base.css">
-    <link rel="stylesheet" href="/chamber/styles/larger.css">
+    <link rel="stylesheet" href="/lesson05/styles/base.css">
 
-    <script src="/chamber/scripts/getdates.js" defer></script>    
+    <script src="/lesson05/scripts/getdates.js" defer></script>    
 
 
-    <meta property="og:title" content="Claresholm Chamber of Commerce" />
+    <meta property="og:title" content="Book Of Mormon Top 10" />
     <!--type - The value website would be accurate.-->
     <meta property="og:type" content="website" />
     <!--url - Provide the canonical URL for your page.-->
     <meta property="og:url" content="https://yukarihall.github.io/wdd230/" />
-    <!--image - Provide an absolute URL to an image that reflects your home town/area.-->
-    <meta property="og:image" content="/chamber/images/claresholm-logo.png" />
 
 </head>
 <body>
-    <header>
-        <img src="/chamber/images/claresholm-logo.png" alt="claresholmLogo" class="claresholmLogo">
-        <h1>Claresholm Chamber of Commerce</h1>
-    </header>
-
-    <main id="sitePlanMain">
-        <section>
-            <h2>Site Name</h2>
-            <p>The site name selected is "Claresholm Chamber of Commerce." This name is chosen to clearly represent the locale, Claresholm, and to highlight the purpose of the site, which is to support and promote local businesses and community growth.</p>
-        </section>
-
-        <section>
-            <h2>Site Purpose</h2>
-            <p>The Claresholm Chamber of Commerce website will serve two main purposes:</p>
-            <ul>
-                <li>To act as a hub for local businesses, providing resources, networking opportunities, and information on community events.</li>
-                <li>To promote economic and community development within Claresholm by offering support and services to local businesses and fostering community engagement.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Scenarios</h2>
-            <ul>
-                <li>What events will the chamber be holding this month that promote business-to-business networking?</li>
-                <li>Where can I find contact information for the chamber's board of directors?</li>
-                <li>What are the recent developments and projects undertaken by the chamber to enhance local businesses?</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Color Schema</h2>
-            <p>The color schema for the website will be as follows:</p>
-            <ul>
-                <li><span class="color-swatch" style="background-color: rgb(142, 195, 142);"></span> Green - used for headers, footers, and background accents.</li>
-                <li><span class="color-swatch" style="background-color: #4682B4;"></span> Blue - used for primary buttons, links, and important callouts.</li>
-                <li><span class="color-swatch" style="background-color: #FFD700;"></span> Yellow - used for highlights and secondary buttons.</li>
-                <li><span class="color-swatch" style="background-color: #F5F5F5;"></span> Light Gray - used for background color and text areas.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Typography</h2>
-            <p>The typography choices for the website will be:</p>
-            <ul>
-                <li><strong>Montserrat</strong> - used for headings and important titles.</li>
-                <li><strong>Open Sans</strong> - used for body text and general content.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Wireframe</h2>
-            <p>Below is a rough sketch of the design layout for the chamber home page:</p>
-            <h3>Desktop View</h3>
-            <img src="/chamber/images/frame1.png" alt="Desktop Wireframe">
-            <h3>Mobile View</h3>
-            <img src="/chamber/images/frame2.png" alt="Mobile Wireframe">
-        </section>
+    <h1>📖 Book of Mormon - Top 10</h1>
+    <main>
+        <label for="favchap">Enter Book and Chapter: </label>
+        <input type="text" id="favchap" placeholder="Alma 5">
+        <button type="submit">Add Chapter</button>
+        <ul id="list"></ul>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Claresholm Chamber of Commerce</p>
-    </footer>
 </body>
 </html>

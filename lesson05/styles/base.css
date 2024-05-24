@@ -1,79 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
-}
-/* phone or baseline views **************************/
- .container{
-	max-width: 767px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: Acme, Arial, sans-serif;
 }
 
-.card {
+h1 {
+	font-size: 1.5rem;
+}
+
+main {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	background-color: #ddd;
+	display: flex;
+	flex-direction: column;
+}
+
+input,
+button {
+	padding: 0.5rem;
+}
+
+button {
 	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0 1rem;
-	background-color: #eee;
 }
 
-main section h2 {
-	color: #536878;
+.delete {
+	width: fit-content;
 }
 
-
-
-main section:nth-child(2) {
-	display: none;
-	margin: 0.5rem;
+.input {
+	display: flex;
+	gap: 1rem;
 }
 
-.colimage {
-	box-shadow: 0 0 30px #333;
+.list {
+	padding: 0.5rem;
 }
 
-/* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
-	.container {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	main section:nth-child(2) {
-		display: block;
-	}
-
-	main section:nth-child(3) {
-		grid-column: span 2;
-	}
-
-	main section picture {
-		display: block;
-	}
-	main section picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	}
+ul {
+	margin: 1rem;
+	list-style: none;
 }
 
-/* Desktop Views ****************************/
-@media only screen and (min-width: 60em) {
+li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@media only screen and (min-width: 32.5em) {
+	h1 {
+		font-size: 2rem;
+	}
+
 	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-	
-	/* This is unncessary !!! The flow is set and the template is set already */
-	main section:nth-child(1) {
-	  grid-column: 1/2;
-  }
-	main section:nth-child(2) {
-	  grid-column: 2/3;
-		grid-row: 1/2;
-  }
-	/*************************************/
-
-	main section:nth-child(3) {
-		grid-column: span 1;
+		width: 320px;
 	}
 }
