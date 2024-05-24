@@ -1,79 +1,50 @@
 body {
-	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
-}
-/* phone or baseline views **************************/
- .container{
-	max-width: 767px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F5F5F5;
+  color: #333333;
+  margin: 0;
+  padding: 0;
 }
 
-.card {
-	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0 1rem;
-	background-color: #eee;
+header {
+  /*background-color: #98B6A5;*/
+  background-color: rgb(142, 195, 142);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
-main section h2 {
-	color: #536878;
+main {
+  padding: 20px;
 }
 
-
-
-main section:nth-child(2) {
-	display: none;
-	margin: 0.5rem;
+h1, h2 {
+  color: #4682B4;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.colimage {
-	box-shadow: 0 0 30px #333;
+h3 {
+  color: #FFD700;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
-	.container {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	main section:nth-child(2) {
-		display: block;
-	}
-
-	main section:nth-child(3) {
-		grid-column: span 2;
-	}
-
-	main section picture {
-		display: block;
-	}
-	main section picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	}
+p, ul, li {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
 }
 
-/* Desktop Views ****************************/
-@media only screen and (min-width: 60em) {
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-	
-	/* This is unncessary !!! The flow is set and the template is set already */
-	main section:nth-child(1) {
-	  grid-column: 1/2;
-  }
-	main section:nth-child(2) {
-	  grid-column: 2/3;
-		grid-row: 1/2;
-  }
-	/*************************************/
+.color-swatch {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
 
-	main section:nth-child(3) {
-		grid-column: span 1;
-	}
+footer {
+  background-color: rgb(142, 195, 142);
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
