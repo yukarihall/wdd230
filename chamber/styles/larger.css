@@ -9,7 +9,7 @@
   #navMenu li{
     margin-right: 20px;
   }
-  main {
+  #homePageMain {
       display: flex;
       padding: 0 10px;
   }

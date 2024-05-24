@@ -7,7 +7,8 @@ body {
 }
 
 header {
-  background-color: #98B6A5;
+  /*background-color: #98B6A5;*/
+  background-color: rgb(142, 195, 142);
   color: white;
   padding: 20px;
   text-align: center;
@@ -42,7 +43,7 @@ p, ul, li {
 }
 
 footer {
-  background-color: #98B6A5;
+  background-color: rgb(142, 195, 142);
   color: white;
   text-align: center;
   padding: 10px;
