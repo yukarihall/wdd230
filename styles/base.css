@@ -17,6 +17,16 @@ main {
   color: #333; /* Dark gray text color */
   background-color: #FCB5AC; /* Light gray background color */
 }
+
+#navMenu::before {
+	content: "☰";
+}
+
+#navMenu.open::before {
+	content: "❎";
+}
+
+
 .myProfilePicture {
   height: 150px;
   width: auto;
