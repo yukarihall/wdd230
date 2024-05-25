@@ -18,14 +18,21 @@ main {
   background-color: #FCB5AC; /* Light gray background color */
 }
 
-#navMenu::before {
-	content: "☰";
+#menu::before {
+  content: "☰"; /* Hamburger icon */
 }
 
-#navMenu.open::before {
-	content: "❎";
+#menu.open::before {
+  content: "❎"; /* Close icon */
 }
 
+#navMenu {
+  display: none;
+}
+
+#navMenu.open {
+  display: block;
+}
 
 .myProfilePicture {
   height: 150px;
