@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #F5F5F5;
@@ -14,6 +17,47 @@ header {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+
+.hero {
+  height: 100vh; /* Full viewport height */
+  background-image: url('/chamber/images/lake.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.cta-button {
+  background-color: #ff6347; /* Tomato color */
+  color: white;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.25em;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ff4500; /* OrangeRed color */
+}
+
 
 main {
   padding: 20px;
@@ -41,6 +85,43 @@ p, ul, li {
   margin-right: 10px;
   vertical-align: middle;
 }
+
+
+.card-container {
+  display: flex; /* Flexboxを使用 */
+  justify-content: space-between; /* カードの間にスペースを均等に配置 */
+  flex-wrap: wrap; /* 必要に応じて折り返し */
+  gap: 20px; /* カード間の隙間を設定 */
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1; /* カードを均等に広げる */
+  min-width: 250px; /* カードの最小幅を設定 */
+  max-width: 300px; /* カードの最大幅を設定 */
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+
+/*.card {
+  align-items: flex-start;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #d2f0bbc5;
+  width: 50%;
+  margin: 0px 0px 25px 25px;
+}*/
 
 footer {
   background-color: rgb(142, 195, 142);
