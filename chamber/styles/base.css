@@ -20,7 +20,7 @@ header {
 
 .hero {
   height: 100vh; /* Full viewport height */
-  background-image: url('./images/mountain.jpeg');
+  background-image: url('../images/mountain.jpeg');
   background-size: cover;
   background-position: center;
   display: flex;
