@@ -21,18 +21,20 @@ main {
 #menu::before {
   content: "☰"; /* Hamburger icon */
 }
-
 #menu.open::before {
   content: "❎"; /* Close icon */
 }
-
+#menu{
+  display: none;
+}
+/* 
 #navMenu {
   display: none;
 }
 
 #navMenu.open {
   display: block;
-}
+} */
 
 .myProfilePicture {
   height: 150px;
@@ -107,4 +109,11 @@ footer {
   padding: 10px;
   background-color: #cbc19a;
 }
+
+@media screen and (max-width:800px){
+  #menu{
+    display: contents;
+  }  
+}
+
 
