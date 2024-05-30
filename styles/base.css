@@ -84,13 +84,34 @@ h1{
   padding: 20px;
 }
 
+a {
+  color: #00eeff; /* Green */
+  text-decoration: none; /* Remove underline if desired */
+}
+
+/* Visited link */
+a:visited {
+  color: #ffff; /* Purple */
+}
+
+/* Mouse over link */
+a:hover {
+  color: #00FF00; /* Red */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Selected link */
+a:active {
+  color: #0000ff; /* Green */
+}
+
 .card {
 
   /* align-items: flex-start;
   align-items: stretch; */
   margin: 20px auto;
   padding: 20px;
-  background-color: #B99095;
+  background-color: #b9ac90;
   width: 50%;
   margin: 0px 0px 25px 25px;
 }

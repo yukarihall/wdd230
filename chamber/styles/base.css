@@ -26,7 +26,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(16, 16, 16);
+  color: rgb(93, 244, 12);
   text-align: center;
 }
 
@@ -63,15 +63,16 @@ main {
   padding: 20px;
 }
 
-h1, h2 {
-  color: #6edf31;
-  font-family: 'Montserrat', sans-serif;
-}
-
-h3 {
+h1 {
   color: #FFD700;
   font-family: 'Montserrat', sans-serif;
 }
+
+h2 {
+  color: #5131df;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 p, ul, li {
   font-family: 'Open Sans', sans-serif;
