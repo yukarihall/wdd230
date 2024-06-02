@@ -16,6 +16,7 @@
 
     <script src="scripts/getdates.js" defer></script>    
     <script src="scripts/humberger.js" defer></script>    
+    <script src="scripts/windchill.js" defer></script>    
     
     <meta property="og:title" content="Claresholm Chamber of Commerce">
     <!--type - The value website would be accurate.-->
@@ -23,10 +24,22 @@
     <!--url - Provide the canonical URL for your page.-->
     <meta property="og:url" content="https://yukarihall.github.io/wdd230/">
     <!--image - Provide an absolute URL to an image that reflects your home town/area.-->
-    <meta property="og:image" content="images/claresholm-logo.png" >
+    <meta property="og:image" content="images/ClaresholmLogo.png" >
 
 </head>
 <body>
+    <h1>Responsive Images Example</h1>
+    <img 
+      src="images/wdd230-org-Small.webp"
+      srcset="
+        images/wdd230-org-Small.webp 600w,
+        images/wdd230-org-Medium.webp 1200w,
+        images/wdd230-org-Large.webp 1800w"
+      sizes="(max-width: 600px) 600px,
+             (max-width: 1200px) 1200px,
+             1800px"
+      alt="Responsive example image with different viewport sizes">
+
     <img src="images/ClaresholmLogo.png" alt="claresholmLogo" class="claresholmLogo">
     <header class="hero">
         <div class="hero-content">
