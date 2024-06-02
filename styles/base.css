@@ -105,7 +105,9 @@ a {
 
 /* Visited link */
 a:visited {
-  color: #0e18ac; /* Purple */
+  color: #720505; /* Purple */
+  text-decoration: underline; /* Add underline on hover */
+
 }
 
 /* Mouse over link */
