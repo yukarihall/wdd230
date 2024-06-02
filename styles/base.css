@@ -15,7 +15,7 @@ main {
   padding: 20px;
   height: 1.6;
   color: #333; /* Dark gray text color */
-  background-color: #FCB5AC; /* Light gray background color */
+  background-color: #df6391; /* Light gray background color */
 }
 
 #menu::before {
@@ -48,7 +48,7 @@ header{
   align-items: center;
   justify-items: left;
   text-align: center;
-  background-color: #B5E5CF;
+  background-color: #76c4a0;
 }
 
 nav#navMenu{
@@ -85,7 +85,7 @@ nav li{
 }
 nav li a{
   text-decoration: none ;
-  color: white;
+  color: rgb(109, 106, 101);
 }
 
 nav{
@@ -105,7 +105,7 @@ a {
 
 /* Visited link */
 a:visited {
-  color: #ffff; /* Purple */
+  color: #0e18ac; /* Purple */
 }
 
 /* Mouse over link */
@@ -116,7 +116,7 @@ a:hover {
 
 /* Selected link */
 a:active {
-  color: #0000ff; /* Green */
+  color: #ff002b; /* Green */
 }
 
 .card {
@@ -125,13 +125,13 @@ a:active {
   align-items: stretch; */
   margin: 20px auto;
   padding: 20px;
-  background-color: #b9ac90;
+  background-color: #e6c63a;
   width: 50%;
   margin: 0px 0px 25px 25px;
 }
 
 body{
-  background-color: #FCB5AC;   
+  background-color: #df6391;   
 }
 
 .mapStyling{
@@ -142,7 +142,7 @@ footer {
   margin: 0px;
   text-align: center;
   padding: 10px;
-  background-color: #b9ac90;
+  background-color: #e6c63a;
 }
 
 @media screen and (max-width:800px){
