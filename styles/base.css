@@ -127,7 +127,7 @@ a:active {
   align-items: stretch; */
   margin: 20px auto;
   padding: 20px;
-  background-color: #e6c63a;
+  background-color: #e3e542;
   width: 50%;
   margin: 0px 0px 25px 25px;
 }
@@ -144,7 +144,7 @@ footer {
   margin: 0px;
   text-align: center;
   padding: 10px;
-  background-color: #e6c63a;
+  background-color: #e3e542;
 }
 
 @media screen and (max-width:800px){
