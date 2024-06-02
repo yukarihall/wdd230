@@ -98,14 +98,14 @@ h1{
   padding: 20px;
 }
 
-a {
-  color: #00eeff; /* Green */
+.lessonPlan a {
+  color: #720505;
   text-decoration: none; /* Remove underline if desired */
 }
 
 /* Visited link */
 a:visited {
-  color: #720505; /* Purple */
+  color: #720505;
   text-decoration: underline; /* Add underline on hover */
 
 }
