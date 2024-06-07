@@ -10,7 +10,7 @@
     margin-right: 20px;
   }
   main {
-      display: flex;
+      /* display: flex; */
       padding: 0 10px;
   }
   nav {
@@ -21,7 +21,8 @@
   nav ul {
       grid-template-columns: 1fr;
   }
-}
+
+ 
 
 /* Larger Views ******************
 @media (min-width: 640px) {
