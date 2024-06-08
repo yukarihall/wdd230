@@ -97,8 +97,8 @@ main {
 nav#navMenu{
   display: none;
   flex-direction: column;
-  /* background-color: #d4f9b4; 
-  padding: 20px;   */
+  background-color: #d4f9b4; 
+  padding: 20px;  
 }
 
 

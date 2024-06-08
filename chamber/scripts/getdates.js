@@ -1,10 +1,8 @@
-// getdates.js
 document.addEventListener("DOMContentLoaded", function() {
-  // Copyright Year
-  const copyrightYear = new Date().getFullYear();
-  document.querySelector('footer p:first-of-type').textContent += copyrightYear;
+  // Get the current date and time
+  const now = new Date(Date.now());
+  const formattedDateTime = now.toLocaleString();
 
-  // Last Modified Date
-  const lastModifiedDate = new Date(document.lastModified);
-  document.querySelector('footer p:last-of-type').textContent += lastModifiedDate;
+  // Display the current date and time
+  document.getElementById('current-datetime').textContent = formattedDateTime;
 });

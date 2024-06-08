@@ -19,4 +19,17 @@ document.addEventListener('DOMContentLoaded', () => {
 	hamButton.addEventListener('click', () => {
 		navigation.classList.toggle('open');
 	});
+
+const handleResize = () => {
+	if (window.innerWidth >= 768) {
+		navigation.style.display = 'flex';
+		navigation.classList.remove('open')
+	} else {
+		navigation.style.display = 'none';
+	}
+}
+window.addEventListener('resize', handleResize);
+handleResize();
+
 });
+

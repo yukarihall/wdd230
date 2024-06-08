@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="styles/larger.css">
 
     <script src="scripts/getdates.js" defer></script>    
-    <script src="scripts/humberger.js" defer></script>    
-    <script src="scripts/windchill.js" defer></script>    
+    <script src="scripts/lastvisit.js" defer></script>    
     
     <meta property="og:title" content="Claresholm Chamber of Commerce">
     <!--type - The value website would be accurate.-->
@@ -28,53 +27,62 @@
 
 </head>
 <body>
-    <h1>Claresholm Chamber of Commerce</h1>
-    <img 
-      src="images/wdd230-org-Small.webp"
-      srcset="
-        images/wdd230-org-Small.webp 600w,
-        images/wdd230-org-Medium.webp 1200w,
-        images/wdd230-org-Large.webp 1800w"
-      sizes="(max-width: 600px) 600px,
-             (max-width: 1200px) 1200px,
-             1800px"
-      alt="Responsive example image with different viewport sizes">
-
     <img src="images/ClaresholmLogo.png" alt="claresholmLogo" class="claresholmLogo">
-    <header class="hero">
-        <div class="hero-content">
-            <!-- <img id="hero-img" src="../chamber/images/lake.jpeg" alt="lakePicture2"> -->
-            <h1>Claresholm Chamber of Commerce</h1>
-            <p>Your journey to excellence starts here</p>
-            <a href="#learn-more" class="cta-button">Learn More</a>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Sidebar Content</h2>
+            <div class="stat">
+                <h3>Demographics</h3>
+                <p>Population: 1,234,567</p>
+                <p>Median Age: 35</p>
+                <p>Households: 456,789</p>
+            </div>
+            <div class="stat">
+                <h3>Statistical Data</h3>
+                <p>Unemployment Rate: 4.5%</p>
+                <p>Average Income: $50,000</p>
+            </div>
+            <div class="events">
+                <h3>Upcoming Events</h3>
+                <ul>
+                    <li>Event 1 - Jan 15</li>
+                    <li>Event 2 - Feb 10</li>
+                    <li>Event 3 - Mar 5</li>
+                </ul>
+            </div>
+            <div class="calendar">
+                <h3>Calendar</h3>
+                <p>June 2024</p>
+                <ul>
+                    <li>Sun Mon Tue Wed Thu Fri Sat</li>
+                    <li>1   2   3   4   5   6   7</li>
+                    <li>8   9   10  11  12  13  14</li>
+                    <li>15  16  17  18  19  20  21</li>
+                    <li>22  23  24  25  26  27  28</li>
+                    <li>29  30</li>
+                </ul>
+            </div>
         </div>
-    </header>
-
     <main id="sitePlanMain">
-        <div class="card-container">
-            <section class="card">
-                <h2>Events</h2>
-                <p>Events</p>
-            </section>
-            <section class="card">
-                <h2>Weather</h2>
-                <p>Weather</p>
-                <!-- <ul> -->
-                    <!-- <li>To act as a hub for local businesses, providing resources, networking opportunities, and information on community events.</li> -->
-                    <!-- <li>To promote economic and community development within Claresholm by offering support and services to local businesses and fostering community engagement.</li> -->
-                <!-- </ul> -->
-            </section>
-    
-            <section class="card">
-                <h2>card3</h2>
-                <!-- <ul>
-                    <li>What events will the chamber be holding this month that promote business-to-business networking?</li>
-                    <li>Where can I find contact information for the chamber's board of directors?</li>
-                    <li>What are the recent developments and projects undertaken by the chamber to enhance local businesses?</li>
-                </ul> -->
-            </section>
+        <div class="main-content">
+            <div class="image-container">
+                <img class="lazy" src="./images/claresholm1.jpg" alt="Caption 1">
+                <img class="lazy" src="./images/claresholm2.webp" alt="Caption 2">
+                <img class="lazy" src="./images/claresholm3.jpg" alt="Caption 3">
+                <img class="lazy" src="./images/claresholm4.webp" alt="Caption 4">
+                <img class="lazy" src="./images/claresholm5.jpg" alt="Caption 5">
+                <img class="lazy" src="./images/claresholm6.webp" alt="Caption 6">
+            </div>
         </div>
+        <div class="datetime-container">
+            <p>Current Date and Time: <span id="current-datetime"></span></p>
+        </div>
+        <div class="sidebar">
+            <p id="visit-message"></p>
+        </div>   
     </main>
+    </div>
+
     <footer>
         <p class="footer">&copy; 2024 Claresholm Chamber of Commerce</p>
     </footer>
