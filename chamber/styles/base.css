@@ -65,6 +65,14 @@ header {
   grid-gap: 10px;
   padding: 10px;
 }
+
+nav#navMenu{
+  display: none;
+  flex-direction: column;
+  background-color: #d4f9b4; 
+  padding: 20px;  
+}
+
 .sidebar {
   background-color: #f4f4f4;
   padding: 20px;
