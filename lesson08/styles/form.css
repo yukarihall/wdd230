@@ -1,0 +1,81 @@
+:root {
+	--main-bg-color: #f4f4f9;
+	--main-text-color: #333;
+	--input-border-color: #ccc;
+}
+
+body {
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color);
+	font-family: Arial, sans-serif;
+}
+
+header, footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1em;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	margin: 2em;
+}
+
+form {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 1em;
+	border: 1px solid var(--input-border-color);
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+form div {
+	margin-bottom: 1em;
+}
+
+form label {
+	display: block;
+	margin-bottom: .5em;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="range"],
+form button {
+	width: 100%;
+	padding: .5em;
+	border: 1px solid var(--input-border-color);
+	border-radius: 5px;
+}
+
+form input[type="range"] {
+	padding: 0;
+}
+
+form button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+form button:hover {
+	background-color: #555;
+}
