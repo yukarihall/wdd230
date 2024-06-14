@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Form</title>
+    <meta name="author" content="Yukari Hall">
+    <meta name="description" content="This is the course assignment portal for WDD 230 - Web Frontend Development by Yukari Hall.">
+
+    <link rel="icon" href="../images/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/getdates.js" defer></script>    
+    <script src="scripts/humberger.js" defer></script>    
+    <script src="scripts/windchill.js" defer></script>    
+    
+    <meta property="og:title" content="Claresholm Chamber of Commerce">
+    <!--type - The value website would be accurate.-->
+    <meta property="og:type" content="website">
+    <!--url - Provide the canonical URL for your page.-->
+    <meta property="og:url" content="https://yukarihall.github.io/wdd230/">
+    <!--image - Provide an absolute URL to an image that reflects your home town/area.-->
+    <meta property="og:image" content="https://www.claresholm.ca/" >
+
+</head>
+
+<body>
+    <!-- Include header and navigation here -->
+    <header>
+        <h1>Join us!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Chamber Home</a></li>
+                <li><a href="join.html">Form</a></li>
+
+                <!-- Add more navigation items as needed -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <form action="thankyou.html" method="get">
+                <div>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div>
+                    <label for="position">Position:</label>
+                    <input type="text" id="position" name="position" pattern="[A-Za-z-\s]{7,}" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                </div>
+                <div>
+                    <label for="phone">Mobile Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <label for="organization">Organization Name:</label>
+                    <input type="text" id="organization" name="organization" required>
+                </div>
+                <div>
+                    <label for="membership-level">Membership Level:</label>
+                    <select id="membership-level" name="membership-level" required>
+                        <option value="NP">NP Membership (Non-Profit) - Free</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="description">Organization Description:</label>
+                    <textarea id="description" name="description"></textarea>
+                </div>
+                <div>
+                    <input type="hidden" id="timestamp" name="timestamp">
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+
+            <div class="membership-info">
+                <h3>Membership Levels and Benefits</h3>
+                <ul>
+                    <li><strong>NP Membership:</strong> No fee. Access to events and training.</li>
+                    <li><strong>Bronze Membership:</strong> Includes NP benefits plus priority event registration.</li>
+                    <li><strong>Silver Membership:</strong> Includes Bronze benefits plus free advertising on our site.</li>
+                    <li><strong>Gold Membership:</strong> Includes Silver benefits plus exclusive discounts and spotlight positions.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Include footer here -->
+    <footer>
+        <p class="footer">&copy; 2024 Claresholm Chamber of Commerce</p>
+    </footer>
+    <script>
+        document.getElementById('timestamp').value = Date.now();
+    </script>
+</body>
+</html>
