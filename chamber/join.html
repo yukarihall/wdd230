@@ -68,7 +68,7 @@
                     <label for="organization">Organization Name:</label>
                     <input type="text" id="organization" name="organization" required>
                 </div>
-                <div>
+                <!-- <div>
                     <label for="membership-level">Membership Level:</label>
                     <select id="membership-level" name="membership-level" required>
                         <option value="NP">NP Membership (Non-Profit) - Free</option>
@@ -76,7 +76,17 @@
                         <option value="Silver">Silver Membership</option>
                         <option value="Gold">Gold Membership</option>
                     </select>
-                </div>
+                </div> -->
+                <div>
+                    <label for="membership-level">Membership Level:</label>
+                    <select id="membership-level" name="membership-level" required>
+                        <option value="" disabled selected>Select membership level</option>
+                        <option value="NP">NP Membership (Non-Profit) - Free</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
+                    </select>
+                </div>                
                 <div>
                     <label for="description">Organization Description:</label>
                     <textarea id="description" name="description"></textarea>
