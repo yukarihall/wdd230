@@ -18,6 +18,16 @@ header {
   font-family: 'Montserrat', sans-serif;
 }
 
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
+
 .hero {
   height: 100vh; /* Full viewport height */
   background-image: url('../images/mountain.webp');
