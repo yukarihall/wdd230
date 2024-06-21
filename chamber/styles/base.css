@@ -3,14 +3,15 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #F5F5F5;
+  background-color: rgb(71, 180, 71);
+  /* background-color: #F5F5F5; */
   color: #333333;
   margin: 0;
   padding: 0;
 }
 
 header {
-  /*background-color: #98B6A5;*/
+  /* background-color: #98B6A5; */
   background-color: rgb(71, 180, 71);
   color: white;
   padding: 20px;
@@ -27,6 +28,14 @@ header {
 	font-size: 2rem;
 }
 
+.claresholmLogo{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 .hero {
   height: 100vh; /* Full viewport height */
@@ -34,13 +43,12 @@ header {
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.hero-content {
-  max-width: 600px;
+  box-shadow: 0 0 30px #777;
+  border: 1px solid #333;
 }
 
 .hero h1 {
@@ -118,7 +126,9 @@ nav#navMenu{
 }
 
 main {
-  padding: 20px;
+  padding: 0;
+  background-color: rgb(71, 180, 71);
+
 }
 
 h1 {
