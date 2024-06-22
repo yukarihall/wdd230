@@ -238,6 +238,7 @@ footer {
 .menu{
   display: flex;
   flex-direction: row;
+  list-style-type: none;
 }
 
 .hamburger {
@@ -259,12 +260,12 @@ footer {
   box-shadow: -10px 0 10px rgba(0,0,0,.1);
   display: flex;
   flex-direction: column;
+  list-style-type: none;
   align-items: flex-start;
   justify-content: flex-start;
 }
 
 .sidebar ul {
-  list-style-type: none;
   padding: 0;
 }
 
@@ -276,6 +277,7 @@ footer {
 .sidebar ul li a {
   color: white;
   text-decoration: none;
+  list-style-type: none;
   display: block;
 }
 

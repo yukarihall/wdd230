@@ -1,0 +1,60 @@
+{
+"members":[
+  {
+      "name": "Company One",
+      "address": "123 Main St, Anytown, USA",
+      "phone": "123-456-7890",
+      "website": "https://companyone.com",
+      "image": "company1.jpg",
+      "membership_level": "Gold"
+  },
+  {
+      "name": "Company Two",
+      "address": "456 Elm St, Othertown, USA",
+      "phone": "234-567-8901",
+      "website": "https://companytwo.com",
+      "image": "company2.jpg",
+      "membership_level": "Silver"
+  },
+  {
+      "name": "Company Three",
+      "address": "789 Maple St, Sometown, USA",
+      "phone": "345-678-9012",
+      "website": "https://companythree.com",
+      "image": "company3.jpg",
+      "membership_level": "Bronze"
+  },
+  {
+      "name": "Company Four",
+      "address": "101 Pine St, Anycity, USA",
+      "phone": "456-789-0123",
+      "website": "https://companyfour.com",
+      "image": "company4.jpg",
+      "membership_level": "Gold"
+  },
+  {
+      "name": "Company Five",
+      "address": "202 Oak St, Othercity, USA",
+      "phone": "567-890-1234",
+      "website": "https://companyfive.com",
+      "image": "company5.jpg",
+      "membership_level": "Silver"
+  },
+  {
+      "name": "Company Six",
+      "address": "303 Birch St, Somecity, USA",
+      "phone": "678-901-2345",
+      "website": "https://companysix.com",
+      "image": "company6.jpg",
+      "membership_level": "Bronze"
+  },
+  {
+      "name": "Company Seven",
+      "address": "404 Cedar St, Anothercity, USA",
+      "phone": "789-012-3456",
+      "website": "https://companyseven.com",
+      "image": "company7.jpg",
+      "membership_level": "Gold"
+  }
+]
+}
