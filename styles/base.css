@@ -12,7 +12,6 @@
  margin-top: 10px;
 }
 header{
-  /* gap: 12px; */
   align-items: center;
   justify-items: left;
   text-align: center;
@@ -49,15 +48,6 @@ header{
 	font-size: 1.5rem;
 	font-family:"Great Vibes", serif;
 }
-/* .navMenu{
-  box-shadow: 3px 3px 5px rgba(0,0,0,.1);
-  display: flex;
-  /* flex-direction: column; */
-  /*align-items: flex-start;
-  justify-content: flex-end;
-  background-color: #d4f9b4; 
-  padding: 20px;  
-} */
 
 nav ul{
   width: 100%;
@@ -66,10 +56,6 @@ nav ul{
   justify-content: center;
   align-items: center;
 }
-
-/* #navMenu.open{
-  display: flex;
-} */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -91,37 +77,20 @@ main {
   color: #333;
 }
 
-/*#menu::before {
-  content: "☰";
-}
-#menu.open::before {
-  content: "❎";
-}
-#menu{
-  display: none;
-}*/
-
-/* 
-@media(min-width:768px) {
-  #navMenu {
-  display:flex;
-  flex-direction:row;
-  }
- } */
-
 nav li{
   margin: 20px;
   padding: 0%;
   height: 50px;
 }
 nav li a{
+  color: red;
   height: 100%;
   padding: 0 3px; 
   text-decoration: none;
-  /* display: flex; */
   align-items: center;
   color: rgb(109, 106, 101);
 }
+
 nav li a:hover{
   background-color: #333;
 }
@@ -129,26 +98,6 @@ nav li :first-child{
   margin: auto;
 
 }
-
-/* .sidebar{
-  position:fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 250px;
-  z-index: 999;
-  background-color: #d4f9b4; 
-  padding: 20px;
-  box-shadow: -10px 0 10px rgba(0,0,0,.1);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.sidebar li{
-  width: 100%;
-} */
-
 
 nav{
   display: flex;
@@ -198,6 +147,7 @@ a:active {
 }
 .cards{
   display: flex;
+  padding: 20px;
   margin: 10px 10px 10px 10px;
 }
 
@@ -215,17 +165,6 @@ footer {
   background-color: lightblue;
 }
 
-/* @media screen and (max-width:800px){
-  #menu{
-    display: contents;
-  }  
-} */
-
-
-
-
-
-
 .container {
   display: flex;
   align-items: flex-start;
@@ -241,13 +180,14 @@ footer {
   list-style-type: none;
 }
 
-.hamburger {
+#hamburger {
   align-items: start;
   font-size: 40px;
   cursor: pointer;
+  border: 5px solid black;
 }
 
-.sidebar {
+#sidebar {
   position: fixed;
   top: 0px;
   left: -300px; /* Initially hidden */
@@ -265,31 +205,38 @@ footer {
   justify-content: flex-start;
 }
 
-.sidebar ul {
+#sidebar ul {
   padding: 0;
 }
 
-.sidebar ul li {
+#sidebar ul li {
   padding: 15px;
   text-align: center;
 }
 
-.sidebar ul li a {
+#sidebar ul li a {
   color: white;
   text-decoration: none;
   list-style-type: none;
   display: block;
 }
 
-.sidebar ul li a:hover {
+#sidebar ul li a:hover {
   background: #555;
 }
 
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .sidebar {
-      width: 100%;
+  #hamburger{
+  /* color: red; */
+  display: contents;
   }
+  #menu {
+    display: none;
+    /* width: 100%; */
+  }
+
 }
 
 

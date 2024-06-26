@@ -1,5 +1,5 @@
 /*********/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   #navMenu ul{
     display: none;
     flex-direction: row;
@@ -23,13 +23,6 @@
   }
 }
 
-/* Larger Views ******************
-@media (min-width: 640px) {
-	nav ul {
-		display: flex;
-	}
-	nav ul li {
-		flex: 1 1 100%;
-	}
+#hamburger{
+  display: none;
 }
-***********/
