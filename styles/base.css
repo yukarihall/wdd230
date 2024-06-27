@@ -168,7 +168,7 @@ footer {
 .container {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 10px;
   background: #333;
   color: white;

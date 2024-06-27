@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="styles/larger.css">   
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/normalize.css">
-    <script src="./scripts/getdates.js" defer></script>    
-    <script src="./scripts/humberger.js" defer></script>    
-    <script src="./scripts/visitor.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>    
+    <script src="scripts/humberger.js" defer></script>    
+    <script src="scripts/visitor.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <meta property="og:title" content="Yukari's HomePage" />
     <!--type - The value website would be accurate.-->
     <meta property="og:type" content="website" />
@@ -82,6 +83,12 @@
               <h3>Information</h3>
               <p>Alberta,Canada</p>
               <p>Weather</p>
+              <div class="weather">
+                  <p>Current Weather in @@@, @@@@@</p>
+                  <p>Temperature: <span id="current-temp">--</span></p>
+                  <p>Condition: <span id="weather-desc">--</span></p>
+                  <img id="weather-icon" src="" alt="Weather Icon">
+              </div>
               <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
           </section>   
         </div>   
