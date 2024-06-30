@@ -88,7 +88,7 @@ nav li a{
   padding: 0 3px; 
   text-decoration: none;
   align-items: center;
-  color: rgb(109, 106, 101);
+  color: black;
 }
 
 nav li a:hover{
@@ -101,7 +101,7 @@ nav li :first-child{
 
 nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
   display: flex;
