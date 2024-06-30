@@ -15,7 +15,7 @@ header{
   align-items: center;
   justify-items: left;
   text-align: center;
-  background-color: #a6f1ce;
+  background-color: #fdffb6;
 }
 
 .hero {
@@ -59,8 +59,7 @@ nav ul{
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* background-color: #feb2ce;    */
-   background-color: #f78eba;
+  background-color: #f1ffc4;
    width: auto;
 }
 
@@ -139,9 +138,9 @@ a:active {
 .card {
   margin: 20px auto;
   padding: 20px;
-  background-color: #e3e542;
+  background-color: #ffcaaf;
   width: 50%;
-  /* margin: 10px 10px 10px 10px; */
+  margin: 10px 10px 10px 10px;
   border: solid;
   border-color: #7780a8;
 }
@@ -156,13 +155,14 @@ a:active {
   width: 100%;
   height: auto;
   border: solid;
-  border-color: #7780a8;
+  border-color: #f1ffc4;
 }
 
 footer {
+  padding: 20px;
   height: auto;
   text-align: center;
-  background-color: lightblue;
+  background-color: #dab894;
 }
 
 .container {
@@ -195,7 +195,7 @@ footer {
   height: 100%;
   overflow-x: hidden;
   transition: 0.3s;
-  background-color: #d4f9b4; 
+  background-color: #f1ffc4; 
   padding: 20px;
   box-shadow: -10px 0 10px rgba(0,0,0,.1);
   display: flex;
