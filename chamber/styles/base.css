@@ -64,7 +64,7 @@ header {
 }
 
 .cta-button {
-  background-color: #1b0805; /* Tomato color */
+  background-color: #1b0805;
   color: white;
   padding: 0.75em 1.5em;
   text-decoration: none;
@@ -77,12 +77,12 @@ header {
   background-color: #ff4500; /* OrangeRed color */
 }
 
-.container {
+/* .container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
   grid-gap: 10px;
   padding: 10px;
-}
+} */
 
 nav#navMenu{
   display: none;
@@ -163,10 +163,9 @@ p, ul, li {
   vertical-align: middle;
 }
 
-
 .card-container {
   display: flex; /* Flexboxを使用 */
-  justify-content: space-between; /* カードの間にスペースを均等に配置 */
+  justify-content:space-evenly; /* カードの間にスペースを均等に配置 */
   flex-wrap: wrap; /* 必要に応じて折り返し */
   gap: 20px; /* カード間の隙間を設定 */
 }
@@ -177,7 +176,7 @@ p, ul, li {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  flex: 1; /* カードを均等に広げる */
+  /*flex: 3; /* カードを均等に広げる */
   min-width: 250px; /* カードの最小幅を設定 */
   max-width: 300px; /* カードの最大幅を設定 */
 }
@@ -214,11 +213,11 @@ footer {
   --input-border-color: #ccc;
 }
 
-body {
+/* body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
   font-family: Arial, sans-serif;
-}
+} */
 
 /* header, footer {
   background-color: rgb(50, 131, 50);
