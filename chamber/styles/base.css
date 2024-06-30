@@ -40,6 +40,7 @@ header {
 .hero {
   height: 100vh; /* Full viewport height */
   background-image: url('../images/mountain.webp');
+  border-radius: 8px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -76,13 +77,6 @@ header {
 .cta-button:hover {
   background-color: #ff4500; /* OrangeRed color */
 }
-
-/* .container {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-gap: 10px;
-  padding: 10px;
-} */
 
 nav#navMenu{
   display: none;
@@ -172,11 +166,10 @@ p, ul, li {
 
 .card {
   background-color: rgb(246, 110, 60);
-  border: 1px solid #ddd;
+  border: 1px solid red;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
   padding: 20px;
-  /*flex: 3; /* カードを均等に広げる */
   min-width: 250px; /* カードの最小幅を設定 */
   max-width: 300px; /* カードの最大幅を設定 */
 }
@@ -188,16 +181,6 @@ p, ul, li {
 .card p {
   margin-bottom: 0;
 }
-
-
-/*.card {
-  align-items: flex-start;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #d2f0bbc5;
-  width: 50%;
-  margin: 0px 0px 25px 25px;
-}*/
 
 footer {
   background-color: rgb(71, 180, 71);
