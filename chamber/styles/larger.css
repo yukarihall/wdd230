@@ -21,7 +21,18 @@
   nav ul {
       grid-template-columns: 1fr;
   }
+
+  .request{
+    background-color: #f69c3cf1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    padding: 20px;
+    width: 1200px;
+    height: 150px;
+  }
+  
 }
+
 
 /* Larger Views ******************
 @media (min-width: 640px) {

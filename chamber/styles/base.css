@@ -3,16 +3,12 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: rgb(71, 180, 71);
-  /* background-color: #F5F5F5; */
-  color: #333333;
-  margin: 0;
-  padding: 0;
+  background-color: rgba(71, 180, 71, 0.6);
 }
 
 header {
   /* background-color: #98B6A5; */
-  background-color: rgb(71, 180, 71);
+  background-color: rgb(71, 180, 71, 0.6);
   color: white;
   padding: 20px;
   text-align: center;
@@ -81,7 +77,7 @@ header {
 nav#navMenu{
   display: none;
   flex-direction: column;
-  background-color: #d4f9b4; 
+  background-color: rgb(71, 180, 71, 0.6); 
   padding: 20px;  
 }
 
@@ -121,7 +117,7 @@ nav#navMenu{
 
 main {
   padding: 0;
-  background-color: rgb(71, 180, 71);
+  background-color: rgb(71, 180, 71, 0.6);
 
 }
 
@@ -159,19 +155,28 @@ p, ul, li {
 
 .card-container {
   display: flex; /* Flexboxを使用 */
+  flex-direction: row;
   justify-content:space-evenly; /* カードの間にスペースを均等に配置 */
   flex-wrap: wrap; /* 必要に応じて折り返し */
   gap: 20px; /* カード間の隙間を設定 */
 }
 
 .card {
-  background-color: rgb(246, 110, 60);
-  border: 1px solid red;
+  background-color: #f69c3cf1;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
   padding: 20px;
-  min-width: 250px; /* カードの最小幅を設定 */
-  max-width: 300px; /* カードの最大幅を設定 */
+  width: 400px;
+  height: 400px;
+}
+
+.request{
+  background-color: #f69c3cf1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  padding: 20px;
+  width: 400px;
+  height: 150px;
 }
 
 .card h2 {
@@ -182,12 +187,25 @@ p, ul, li {
   margin-bottom: 0;
 }
 
+.request h2{
+  margin-top: 0;
+}
+
+.request p {
+  margin-bottom: 0;
+}
+
+
+
 footer {
-  background-color: rgb(71, 180, 71);
+  background-color: rgb(71, 180, 71, 0.6);
   color: white;
   text-align: center;
   padding: 10px;
 }
+
+
+
 
 /* joinus.htlm */
 :root {
@@ -195,19 +213,6 @@ footer {
   --main-text-color: #333;
   --input-border-color: #ccc;
 }
-
-/* body {
-  background-color: var(--main-bg-color);
-  color: var(--main-text-color);
-  font-family: Arial, sans-serif;
-} */
-
-/* header, footer {
-  background-color: rgb(50, 131, 50);
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-} */
 
 nav ul {
   list-style: none;
@@ -224,14 +229,12 @@ nav ul li a {
   text-decoration: none;
 }
 
-main {
-  margin: 2em;
-}
-
 .form-container {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   flex-wrap: wrap;
+  gap: 40px; /* カード間の隙間を設定 */
+
 }
 
 form {
@@ -259,9 +262,9 @@ form input[type="tel"],
 form select,
 form textarea,
 form button {
-  width: 100%;
+  width: 97%;
   padding: .5em;
-  border: 1px solid var(--input-border-color);
+  border: 1px solid gray;
   border-radius: 5px;
 }
 
@@ -277,12 +280,13 @@ form button:hover {
 }
 
 .membership-info {
+
   max-width: 400px;
   padding: 1em;
-  background-color: #fff;
-  border: 1px solid var(--input-border-color);
+  background-color: rgb(71, 180, 71, 0.6);
+  /* border: 1px solid var(--input-border-color); */
   border-radius: 5px;
-  margin-left: 20px;
+  margin-right: 70px;
   flex: 1;
 }
 
