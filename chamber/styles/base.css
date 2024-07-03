@@ -81,38 +81,18 @@ nav#navMenu{
   padding: 20px;  
 }
 
-.sidebar {
-  background-color: #f4f4f4;
-  padding: 20px;
-}
-.content {
-  background-color: #ffffff;
-  padding: 20px;
-}
-.sidebar h2, .content h2 {
-  margin-top: 0;
-}
-.stat {
-  margin-bottom: 10px;
-}
-.calendar {
-  margin-top: 20px;
-}
-@media (min-width: 399px) {
-  .container {
-      grid-template-columns: 1fr;
-  }
-}
-
 .image-container {
-  display:grid;
+  display:block;
+  float:left;
   flex-wrap: wrap;
 }
-.image-container img {
-  width: 400px; /* Set your desired width */
-  height: 400px; /* Set your desired height */
+.image-container img{
+  width: 450px; /* Set your desired width */
+  height: 450px; /* Set your desired height */
   object-fit: cover; /* Adjust how the image fits within the dimensions */
-  margin: 10px; /* Optional: Add some margin for spacing */
+  margin: 15px; /* Optional: Add some margin for spacing */
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 main {
@@ -127,11 +107,12 @@ h1 {
   background-color: #2c4d708c;
   padding: 15px;
   border-radius: 44px;
-}
+  text-align: center;
 
+}
 h2 {
-  color: #000000;
-  font-family: 'Montserrat', sans-serif;
+color: #000;
+font-family: 'Montserrat', sans-serif;
 }
 
 section.card p{
@@ -195,6 +176,71 @@ p, ul, li {
   margin-bottom: 0;
 }
 
+/* discover.html */
+.sidebar {
+  background-color: #f4f4f4;
+  display: grid;
+  grid-template:auto;
+  padding: 20px;
+}
+.sidebar h2 {
+  color: #FFD700;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+/* .content {
+  background-color: red;
+  padding: 20px;
+} */
+.sidebar h2, .content h2 {
+  margin-top: 0;
+  background-color: #2c4d708c;
+}
+.demographics {
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  border: solid 1px #999999; /*グレーの枠線 */
+  border-radius: 10px;       /* 枠を角丸にする */
+  text-align: center;
+}
+.stat {
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  border: solid 1px #999999; /*グレーの枠線 */
+  border-radius: 10px;       /* 枠を角丸にする */
+  text-align: center;
+}
+.events{
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  border: solid 1px #999999; /*グレーの枠線 */
+  border-radius: 10px; 
+  text-align: center;
+}
+.calendar {
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  border: solid 1px #999999; /*グレーの枠線 */
+  border-radius: 10px;       /* 枠を角丸にする */
+  text-align: center;
+}
+
+
+@media (min-width: 399px) {
+  .container {
+      grid-template-columns: 1fr;
+  }
+}
 
 
 footer {
@@ -207,7 +253,7 @@ footer {
 
 
 
-/* joinus.htlm */
+/* join.htlm */
 :root {
   --main-bg-color: #f4f4f9;
   --main-text-color: #333;
