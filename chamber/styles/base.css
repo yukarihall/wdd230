@@ -80,6 +80,9 @@ nav#navMenu{
   background-color: rgb(71, 180, 71, 0.6); 
   padding: 20px;  
 }
+#sitePlanMain{
+ display: flex;
+}
 
 .image-container {
   display:block;
@@ -135,6 +138,7 @@ p, ul, li {
 }
 
 .card-container {
+  padding-left: 40px;
   display: flex; /* Flexboxを使用 */
   flex-direction: row;
   justify-content:space-evenly; /* カードの間にスペースを均等に配置 */
