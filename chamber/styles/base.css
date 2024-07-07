@@ -347,3 +347,14 @@ form button:hover {
 .membership-info ul {
   padding-left: 20px;
 }
+
+/* directory.html */
+#cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 30px #777;
+
+}
