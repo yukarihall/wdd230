@@ -358,3 +358,16 @@ form button:hover {
   box-shadow: 0 0 30px #777;
 
 }
+.spotlights {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  text-align: center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 25px;
+  flex: 1;
+  max-width: 100%;
+}
