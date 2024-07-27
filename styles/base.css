@@ -19,16 +19,16 @@ header{
 }
 
 .hero {
-	margin: 10px auto;
+	/* margin: 10px auto; */
 	position: relative;
 }
 
 .hero img {
-	width: 95%;
-	height: 95%;
-  box-shadow: 0 0 30px #777;
+	width: 100%;
+	height: auto;
+  /* box-shadow: 0 0 30px #777;
   border: 1px solid #333;
-  border-radius: 8px;
+  border-radius: 8px; */
 }
 
 .herolabel {
@@ -154,6 +154,20 @@ a:active {
   margin: 10px 10px 10px 10px;
 }
 
+.weather img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.hero {
+  position: relative;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+}
 
 .mapStyling{
   width: 97%;
